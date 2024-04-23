@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://git.cloudmanager.adobe.com/accensasapacptrsd/qantas-poc-3/develop"
+    url: "https://author-p15404-e146221-cmstg.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xwalk/main"
     type: "markup"
     suffix: ".html"
