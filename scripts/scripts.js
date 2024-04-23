@@ -11,6 +11,11 @@ import {
   loadBlocks,
   loadCSS,
 } from './aem.js';
+// /scripts/scripts.js
+import decorateBreadcrumb from '../blocks/breadcrumb/breadcrumb.js';
+
+// Find all breadcrumb blocks and decorate them
+document.querySelectorAll('.breadcrumb').forEach(decorateBreadcrumb);
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
